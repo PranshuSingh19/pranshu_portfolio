@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>
+      Full-Stack Development Portfolio | Pranshu Singh
+    </title>
+    <meta
+      name="description"
+      content="Explore the professional portfolio of Pranshu Singh, a dedicated Full-Stack Developer. View my latest projects in React, UI/UX, and React JS and see how I solve problems."
+    />
+
+    <link rel="stylesheet" href="style.css">
+    <!-- Preload critical resources -->
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      as="style"
+      onload="this.rel='stylesheet'"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header">
+      <nav class="container">
+        <div class="logo">
+          <a href="/"><img src="brand_logo.png" alt="Pranshu portfolio logo" width="24" height="24" /></a>
+          <!-- <img
+            data-src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/brand_logo_light-kQF9StECjZ8x4wv7UWiglrbBheTYZo.png"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+            alt="Shivaay365 - India's #1 Fantasy Cricket Platform"
+            class="lazy"
+          /> -->
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#solutions">Solutions</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#testimonials">Reviews</a></li>
+        </ul>
+        <div class="nav-cta">
+          <a href="mailto:developer.pranshusingh@gmail.com" class="btn btn-outline">Contact</a>
+        </div>
+        <button
+          class="mobile-menu"
+          aria-label="Toggle navigation menu"
+          aria-expanded="false"
+          aria-controls="mobile-nav-links"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="mobile-nav-links" id="mobile-nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#solutions">Solutions</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#testimonials">Reviews</a></li>
+
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <!-- <h1>India's <span>#1 Betting </span> Platform</h1> -->
+             <h1>India’s Trusted Full-Stack Developer & Digital Solutions Partner</h1>
+            <p>
+               Join businesses and entrepreneurs who trust me to bring their web and AI ideas to life. From custom WordPress themes and Shopify stores to React-based applications and AI-powered projects, I design and develop high-performing digital solutions tailored to your goals.
+            </p>
+            <div class="hero-cta">
+              <a href="#features" class="btn btn-primary"
+                >Start Your Project</a
+              >
+              <a href="#portfolio" class="btn btn-primary"
+                >View My Work</a
+              >
+            </div>
+            <!-- <div class="payment-methods">
+              <img
+                src="download (3).png"
+                alt="PhonePe"
+                class="payment-method"
+              />
+              <img src="download (1).png" alt="Paytm" class="payment-method" />
+              <img src="download.png" alt="UPI" class="payment-method" />
+              <img
+                src="download (2).png"
+                alt="Google Pay"
+                class="payment-method"
+              />
+            </div> -->
+          </div>
+          <div class="hero-visual">
+            <div class="hero-card">
+              <div class="hero-card-content">
+                <img src="brand_logo.png" alt="">
+                <h3>Trusted by 30+ Clients Across India & Worldwide</h3>
+                <p>50+ Projects Delivered | 4+ Countries Served</p><br>
+                <a href="https://wa.me/7389723757?text=Hi%20Pranshu!%20I%20visited%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20project." class="btn btn-primary" target="_blank">Join Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trust by -->
+    <section class="trust-section">
+      <div class="container">
+        <div class="trust-content">
+          <p>Trusted by Businesses & Entrepreneurs Worldwide</p>
+          <div class="trust-stats">
+            <div class="trust-stat fade-in">
+              <span class="number">30+</span>
+              <span class="label">Happy Clients</span>
+            </div>
+            <div class="trust-stat fade-in">
+              <span class="number">50+</span>
+              <span class="label">Projects Delivered</span>
+            </div>
+            <div class="trust-stat fade-in">
+              <span class="number">4+</span>
+              <span class="label">Countries Served</span>
+            </div>
+            <div class="trust-stat fade-in">
+              <span class="number">24/7</span>
+              <span class="label">Support & Maintenance</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- What I Do Section -->
+    <section class="features" id="features">
+      <div class="container">
+        <div class="section-header">
+          <h2>What I Do</h2>
+          <p>Deliver end-to-end web, eCommerce, and AI-powered solutions tailored to your business goals.</p>
+        </div>
+        <div class="features-grid">
+          <div class="feature-card fade-in">
+            <div class="feature-icon"><i class="fa-brands fa-wordpress"></i></div>
+            <h3>Custom WordPress Themes & Plugins</h3>
+            <p>Tailored solutions to match your brand identity and deliver seamless user experiences.</p>
+          </div>
+          <div class="feature-card fade-in">
+            <div class="feature-icon"><i class="fa-brands fa-shopify"></i></div>
+            <h3>Shopify Stores</h3>
+            <p>Build and customize high-converting, scalable eCommerce platforms.</p>
+          </div>
+          <div class="feature-card fade-in">
+            <div class="feature-icon"><i class="fa-brands fa-react"></i></div>
+            <h3>React-Based Applications</h3>
+            <p>Modern, responsive web apps with dynamic UI and powerful functionality.</p>
+          </div>
+          <div class="feature-card fade-in">
+            <div class="feature-icon"><i class="fa-brands fa-artstation"></i></div>
+            <h3>AI-Powered Projects</h3>
+            <p>Implement intelligent features, automation, and analytics to enhance your digital products.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <!-- Why Work With Me Section -->
+    <section class="features" id="solutions">
+      <div class="container">
+        <div class="section-header">
+          <h2>Why Work With Me</h2>
+          <p>Full-stack expertise, performance-driven solutions, and client-focused support for measurable results.</p>
+        </div>
+        <div class="features-grid">
+          <div class="feature-card fade-in">
+            <div class="feature-icon"><i class="fa-brands fa-cc-discover"></i></div>
+            <h3>Research & Discovery (RND)</h3>
+            <p>Understand your business, audience, and define project goals.</p>
+          </div>
+          <div class="feature-card fade-in">
+            <div class="feature-icon"><i class="fa-solid fa-pen-to-square"></i></div>
+            <h3>Design & UI/UX Overview</h3>
+            <p>Create wireframes and pixel-perfect UI/UX mockups for seamless user experience.</p>
+          </div>
+          <div class="feature-card fade-in">
+            <div class="feature-icon"><i class="fa-solid fa-code"></i></div>
+            <h3>Development</h3>
+            <p>Transform designs into responsive, secure, and high-performing frontend and backend digital solutions.</p>
+          </div>
+          <div class="feature-card fade-in">
+            <div class="feature-icon"><i class="fa-etch fa-solid fa-truck"></i></div>
+            <h3>Deployment & Testing</h3>
+            <p>Launch the project with thorough testing, optimization, and ongoing support.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio section -->
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <div class="section-header">
+          <h2>My Portfolio</h2>
+          <p>Showcasing some of my recent projects with full-stack, frontend, and backend expertise.</p>
+        </div>
+        <div class="brands-grid">
+          <div class="brand-card fade-in">
+            <div class="brand-logo">
+            <div class="feature-icon"><i class="fa-solid fa-dumpster"></i></div>
+            </div>
+            <h3>Robonence – E-Commerce</h3>
+            <p>A scalable online store with user-friendly product management and checkout system.</p>
+            <a href="#" class="btn btn-primary"
+              >Learn More</a
+            >
+          </div>
+          <div class="brand-card fade-in">
+            <div class="brand-logo">
+                 <div class="feature-icon"><i class="fa-solid fa-kit-medical"></i></div>
+            </div>
+            <h3>Cosmotouch – Medical</h3>
+            <p>A modern medical services website with booking and information management features.</p>
+            <a href="#" class="btn btn-primary"
+              >Learn More</a
+            >
+          </div>
+          <div class="brand-card fade-in">
+            <div class="brand-logo">
+                <div class="feature-icon"><i class="fa-solid fa-industry"></i></div>
+            </div>
+            <h3>Anbruch – Real Estate</h3>
+            <p>Property listing and management site with advanced search and contact features.</p>
+            <a href="#" class="btn btn-primary"
+              >Learn More</a
+            >
+          </div>
+          <div class="brand-card fade-in">
+            <div class="brand-logo">
+              <div class="feature-icon"><i class="fa-solid fa-dumpster"></i></div>
+            </div>
+            <h3>Enwrape – E-Commerce</h3>
+            <p>A responsive online store with custom UI/UX and secure payment integrations. </p>
+            <a href="#" class="btn btn-primary"
+              >Learn More</a
+            >
+          </div>
+          <div class="brand-card fade-in">
+            <div class="brand-logo">
+                <div class="feature-icon"><i class="fa-solid fa-wheat-awn"></i></div>
+            </div>
+            <h3>G3 Partners – Farming</h3>
+            <p>An agriculture-focused platform connecting farmers and suppliers with dynamic tools.</p>
+            <a href="#" class="btn btn-primary"
+              >Learn More</a
+            >
+          </div>
+          <div class="brand-card fade-in">
+            <div class="brand-logo">
+               <div class="feature-icon"><i class="fa-solid fa-users-between-lines"></i></div>
+            </div>
+            <h3>HireInIndia – Staffing</h3>
+            <p>A staffing and recruitment platform with job listings and application management.</p>
+            <a href="#" class="btn btn-primary"
+              >Learn More</a
+            >
+          </div>
+             <div class="brand-card fade-in">
+            <div class="brand-logo">
+               <div class="feature-icon"><i class="fa-solid fa-coins"></i></div>
+            </div>
+            <h3>BalancedLife365 – Financial</h3>
+            <p>A financial planning and investment platform with personalized advice and tools.</p>
+            <a href="#" class="btn btn-primary"
+              >Learn More</a
+            >
+          </div>
+             <div class="brand-card fade-in">
+            <div class="brand-logo">
+               <div class="feature-icon"><i class="fa-solid fa-circle-info"></i></div>
+            </div>
+            <h3>Tenant Pro – Info Site</h3>
+            <p>A service information site for property tenants with easy navigation and contact options.</p>
+            <a href="/" class="btn btn-primary"
+              >Learn More</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonials -->
+    <section class="testimonials" id="testimonials">
+      <div class="container">
+        <div class="section-header">
+          <h2>What Our Clients Are Saying</h2>
+        <p>Join thousands of satisfied clients who are achieving success with our digital solutions.</p> 
+       </div>
+        <div class="testimonials-grid">
+          <div class="testimonial-card fade-in">
+            <div class="testimonial-content">
+              <p>"From design to deployment, the process was smooth and professional. Highly recommend!"</p>
+            </div>
+            <div class="testimonial-author">
+              <div class="author-avatar">AR</div>
+              <div class="author-info">
+                <h4>Aisha R</h4>
+                <p>Founder of GreenFarm</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card fade-in">
+            <div class="testimonial-content">
+              <p>"The AI features implemented in our platform really transformed our business workflow. Excellent work!" </p>
+            </div>
+            <div class="testimonial-author">
+              <div class="author-avatar">RS</div>
+              <div class="author-info">
+                <h4>Rahul S</h4>
+                <p>Director at FinSolve</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card fade-in">
+            <div class="testimonial-content">
+              <p>"Pranshu developed our medical website with precision and care, making it user-friendly and professional our patients love it!"</p>
+            </div>
+            <div class="testimonial-author">
+              <div class="author-avatar">DN</div>
+              <div class="author-info">
+                <h4>Dr. Neha S</h4>
+                <p>Cosmotouch Clinic</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+      <div class="container">
+        <div class="cta-content">
+          <h2>Ready to Bring Your Ideas to Life?</h2>
+          <p>Have an idea for a website, app, or AI project? Reach out now</p>
+          <a
+            href="https://wa.me/7389723757?text=Hi%20Pranshu!%20I%20visited%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20project."
+            class="whatsapp-btn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span class="icon"><i class="fab fa-whatsapp"></i></span>
+            <span>Start on WhatsApp</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Pranshu Singh</h3>
+            <p>
+              India's Full-stack developer delivering custom web, eCommerce, and AI-powered solutions for businesses and entrepreneurs.
+            </p>
+            <div class="social-links">
+              <a
+                href="https://www.linkedin.com/in/pranshu-singh24/"
+                class="social-link"
+                aria-label="LinkedIn"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+
+              <a
+                href="https://github.com/PranshuSingh19"
+                class="social-link"
+                aria-label="GitHub"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
+          <div class="footer-section">
+            <h3>Menu</h3>
+            <ul>
+              <li>
+                <a href="#features"
+                  ><i class="fas fa-chevron-right"></i> Features</a
+                >
+              </li>
+              <li>
+                <a href="#solutions"
+                  ><i class="fas fa-chevron-right"></i> Solutions</a
+                >
+              </li>
+              <li>
+                <a href="#portfolio"
+                  ><i class="fas fa-chevron-right"></i> Portfolio</a
+                >
+              </li>
+              <li>
+                <a href="#testimonials"
+                  ><i class="fas fa-chevron-right"></i> Reviews</a
+                >
+              </li>
+               <li>
+                <a href="#"
+                  ><i class="fas fa-chevron-right"></i> Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Support</h3>
+            <ul>
+              <li>
+                <a href="#"><i class="fas fa-chevron-right"></i> Help Center</a>
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fas fa-chevron-right"></i> 24/7 Chat</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p> Copyright © 2025 Pranshu Singh. All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Header scroll effect
+      window.addEventListener("scroll", () => {
+        const header = document.getElementById("header");
+        header.classList.toggle("header-scrolled", window.scrollY > 100);
+      });
+
+      // Mobile menu toggle
+      const mobileMenu = document.querySelector(".mobile-menu");
+      const mobileNavLinks = document.getElementById("mobile-nav-links");
+
+      mobileMenu.addEventListener("click", () => {
+        const isExpanded = mobileMenu.getAttribute("aria-expanded") === "true";
+        mobileMenu.classList.toggle("active");
+        mobileNavLinks.classList.toggle("active");
+        mobileMenu.setAttribute("aria-expanded", !isExpanded);
+      });
+
+      // Close mobile menu on link click
+      document.querySelectorAll(".mobile-nav-links a").forEach((link) => {
+        link.addEventListener("click", () => {
+          mobileMenu.classList.remove("active");
+          mobileNavLinks.classList.remove("active");
+          mobileMenu.setAttribute("aria-expanded", "false");
+        });
+      });
+
+      // Lazy loading images
+      const lazyLoadImages = () => {
+        const lazyImages = document.querySelectorAll("img.lazy");
+        if (lazyImages.length > 0) {
+          const imageObserver = new IntersectionObserver(
+            (entries, observer) => {
+              entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                  const img = entry.target;
+                  img.src = img.dataset.src;
+                  img.classList.add("loaded");
+                  img.classList.remove("lazy");
+                  observer.unobserve(img);
+                }
+              });
+            },
+            { rootMargin: "0px 0px 200px 0px" }
+          );
+
+          lazyImages.forEach((img) => imageObserver.observe(img));
+        }
+      };
+
+      // Initialize animations
+      const initAnimations = () => {
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add("visible");
+              }
+            });
+          },
+          { threshold: 0.1, rootMargin: "0px 0px -50px 0px" }
+        );
+
+        document
+          .querySelectorAll(".fade-in")
+          .forEach((el) => observer.observe(el));
+      };
+
+      // Initialize smooth scroll behavior
+      const initSmoothScroll = () => {
+        document.documentElement.style.scrollBehavior = "smooth";
+      };
+
+      // Touch feedback for mobile
+      const initTouchFeedback = () => {
+        if ("ontouchstart" in window) {
+          document
+            .querySelectorAll(".btn, .whatsapp-btn, .feature-card, .brand-card")
+            .forEach((el) => {
+              el.addEventListener("touchstart", () => {
+                el.style.transform = "scale(0.98)";
+              });
+              el.addEventListener("touchend", () => {
+                el.style.transform = "";
+              });
+            });
+        }
+      };
+
+      // Prevent zoom on input focus (iOS)
+      const preventZoomOnFocus = () => {
+        document.addEventListener("touchstart", (e) => {
+          if (e.touches.length > 1) {
+            e.preventDefault();
+          }
+        });
+      };
+
+      // Initialize all functions when DOM is loaded
+      document.addEventListener("DOMContentLoaded", () => {
+        lazyLoadImages();
+        initAnimations();
+        initSmoothScroll();
+        initTouchFeedback();
+        preventZoomOnFocus();
+      });
+    </script>
+  </body>
+</html>
