@@ -1311,7 +1311,7 @@
         /* Features - 2 columns */
         .features-grid {
           grid-template-columns: repeat(2, 1fr);
-          gap: 1rem;
+          gap: 10px;
           max-width: 100%;
         }
 
@@ -1336,7 +1336,7 @@
         /* Gaming Brands - 2 columns */
         .brands-grid {
           grid-template-columns: repeat(2, 1fr);
-          gap: 1rem;
+          gap: 10px;
           max-width: 100%;
         }
 
@@ -1417,7 +1417,7 @@
           gap: 2rem;
         }
         .footer-section h3::after {
-          left: 5%;
+          left: 7%;
           transform: translateX(-50%);
         }
 
@@ -1463,7 +1463,7 @@
         .feature-card,
         .brand-card,
         .testimonial-card {
-          padding: 1rem;
+          padding: 15px;
         }
 
         .whatsapp-btn {
@@ -1491,4 +1491,5 @@
           transform: none;
         }
       }
+
 
