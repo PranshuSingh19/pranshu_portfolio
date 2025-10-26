@@ -319,8 +319,10 @@
         left: 0;
         right: 0;
         bottom: 0;
-        background: url("https://images.unsplash.com/photo-1531415074968-036ba1b575da?q=80&w=2070&auto=format&fit=crop")
+        background: url("/portfolio_banner.webp")
           no-repeat center center;
+        /* background: url("https://images.unsplash.com/photo-1531415074968-036ba1b575da?q=80&w=2070&auto=format&fit=crop")
+          no-repeat center center; */
         background-size: cover;
         opacity: 0.15;
         z-index: 1;
@@ -1491,6 +1493,7 @@
           transform: none;
         }
       }
+
 
 
 
