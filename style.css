@@ -1335,7 +1335,7 @@
 
         /* Gaming Brands - 2 columns */
         .brands-grid {
-          grid-template-columns: repeat(2, 1fr);
+          grid-template-columns: repeat(1, 1fr);
           gap: 10px;
           max-width: 100%;
         }
@@ -1463,7 +1463,7 @@
         .feature-card,
         .brand-card,
         .testimonial-card {
-          padding: 15px;
+          padding: 11px;
         }
 
         .whatsapp-btn {
@@ -1491,5 +1491,6 @@
           transform: none;
         }
       }
+
 
 
